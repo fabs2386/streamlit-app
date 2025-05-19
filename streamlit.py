@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 st.title('Concentración vs Absorbancia')
 
 # Calibration data
-absorbancia_cal = np.array([0.011, 0.071, 0.237, 0.474, 0.963, 2.524])
+absorbancia_cal = np.array([0.030, 0.087, 0.311, 0.603, 1.167, 2.669])
 concentracion_cal = np.array([0, 5, 25, 50, 100, 300])
 
 # Input absorbance value
